@@ -1,0 +1,17 @@
+**/.idea/
+**/.vscode/
+
+**/*.pyc
+*/**/__pycache__/
+
+**/env
+
+**/node_modules/
+**/package-lock.json
+
+secret/*
+!secret/test_service_account.py
+!db.json
+!gsheets_cached_config.json
+
+config.json
